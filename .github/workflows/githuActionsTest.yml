@@ -20,4 +20,11 @@ jobs:
         uses: hashicorp/setup-terraform@v2
         with:
           terraform_wrapper: false
+      - name: Terraform Apply
+        id: apply
+        run: |
+          terraform init
+          terraform validate
+          terraform plan 
+          #terraform apply -auto-approve
 
