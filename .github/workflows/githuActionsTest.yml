@@ -1,15 +1,15 @@
-name: Test Workflow
-on: 
-  push:
-    branches: main
+# name: Test Workflow
+# on: 
+#   push:
+#     branches: main
 
-jobs:
-  terraform:
-    name: Test terraform code
-    runs-on: ubuntu-latest
+# jobs:
+#   terraform:
+#     name: Test terraform code
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
         
 
